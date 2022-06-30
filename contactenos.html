@@ -8,15 +8,16 @@
     <script src="js/final.js"></script>
     <title>Contactenos</title>
 </head>
-<body>
+<body class="contactar">
     <section class="form-contactar">
         <h3>Contactenos</h3>
-        <input type="text" class="contact-inputs" name="nombre" id="nombre" placeholder="Ingresar nombre">
-        <input type="email" pattern=".+@globex\.com" class="contact-inputs" name="correo" id="correo" placeholder="Ingresar email">
-        <input type="text" class="contact-inputs" name="asunto" id="asunto" placeholder="Ingresar asunto">
-        <textarea name="mensaje" class="contact-inputs" rows="5" id="mensaje" style="resize: none;" placeholder="Ingresar mensaje..."></textarea>
+        <input type="text" class="contact-inputs" name="nombre" id="nombre" placeholder="Ingresar nombre*">
+        <input type="email" pattern=".+@globex\.com" class="contact-inputs" name="correo" id="correo" placeholder="Ingresar email*">
+        <input type="text" class="contact-inputs" name="asunto" id="asunto" placeholder="Ingresar asunto*">
+        <textarea name="mensaje" class="contact-inputs" rows="5" id="mensaje" style="resize: none;" placeholder="Ingresar mensaje*..."></textarea>
         <input type="submit" class="bottons" onclick="enviar()" value="enviar" >
         <input type="button" class="bottons" onclick="reset()" value="reset">
     </section>
+    <footer id="footerContactar" class="footer"><b>&copy; Copyright 2022 Taller Final HTML CSS JavaScript</b></footer>
 </body>
 </html>

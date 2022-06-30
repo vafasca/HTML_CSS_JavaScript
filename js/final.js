@@ -39,3 +39,22 @@ const reset = () => {
     document.getElementById("asunto").value = "";
     document.getElementById("mensaje").value = "";
 }
+
+const enviarImPar = () => {
+    var impar = document.querySelectorAll(".impar");
+    var par = document.querySelectorAll(".par");
+    var tam = impar.length;
+    console.log(tam);
+    for (let index = 0; index < impar.length; index++) {
+        impar[index].classList.add("reimpar")
+        par[index].classList.remove("repar");
+    }
+}
+const enviarPar = () => {
+    var par = document.querySelectorAll(".par");
+    var impar = document.querySelectorAll(".impar");
+    for (let index = 0; index < par.length; index++) {
+        par[index].classList.add("repar")
+        impar[index].classList.remove("reimpar");
+    }
+}
