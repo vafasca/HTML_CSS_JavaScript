@@ -187,7 +187,7 @@ section{
     padding-top: 20px;
     position: fixed;
     left: 650px;
-    bottom: 200px;
+    bottom: 100px;
 }
 
 section .middle ul li{
@@ -209,8 +209,8 @@ section .middle ul li a:hover{
 .talleres_sofka{
     padding-top: 20px;
     position: fixed;
-    left: 650px;
-    bottom: 250px;
+    left: 660px;
+    bottom: 200px;
 }
 
 section .talleres_sofka ul li{
@@ -219,9 +219,44 @@ section .talleres_sofka ul li{
 section .talleres_sofka ul li a{
     display: block;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
     margin-left: 20px;
+    font-family:fantasy;
 }
 
+section .talleres_sofka ul li a:hover{
+    border-radius: 20px;
+    box-shadow: 0 0 90px rgb(69, 192, 214), 0 0 40px rgba(116, 226, 228, 0.464);
+
+}
+
+section .talleres_sofka h2{
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tres_logos{
+    padding-top: 90px;
+    left: 700px;
+}
+
+section .tres_logos img{
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    background-color: rgb(48, 45, 45);
+    border-radius: 80px;
+    box-shadow: 0 0 10px white, 0 0 40px lightgray;
+}
+
+section .tres_logos img:hover{
+    box-shadow: 0 0 10px rgb(116, 82, 218), 0 0 40px rgb(34, 43, 222);
+}
+section .tres_logos img{
+    margin-left: 300px;
+    margin-top: 120px;
+}
