@@ -58,3 +58,9 @@ const enviarPar = () => {
         impar[index].classList.remove("reimpar");
     }
 }
+
+const colorPortafolio = () =>{
+    var cambiar = document.querySelector(".titulo");
+    var cambiar2 = document.querySelector(".lista-menu-portafolio ul li a");
+    cambiar.classList.toggle("retitulo");
+}

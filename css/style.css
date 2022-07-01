@@ -15,7 +15,7 @@
     background-size: cover;
 }
 
-.portafolioBody{
+.portafolioBody {
     background-image: url('../images/portafolio_fondo.jpg');
     background-size: cover;
 }
@@ -50,7 +50,7 @@
     box-shadow: 13px 13px 80px black;
 }
 
-.portafolioBody{
+.portafolioBody {
     width: 1220px;
     margin: auto;
 }
@@ -93,17 +93,17 @@
     cursor: pointer;
 }
 
-.grupo-fruta .boton{
+.grupo-fruta .boton {
     width: 30%;
     padding: 12px;
     margin-top: 20px;
     margin-left: 65px;
-    border:none;
+    border: none;
     font-size: 15px;
     background-color: rgb(87, 228, 228);
 }
 
-.grupo-fruta .boton:hover{
+.grupo-fruta .boton:hover {
     background-color: aqua;
 }
 
@@ -114,39 +114,40 @@
     height: 30px;
     width: 100%;
     color: black;
-  }
-  #footerContactar {
+}
+
+#footerContactar {
     position: fixed;
     left: 620px;
     bottom: 0px;
     height: 30px;
     width: 100%;
     color: white;
-  }
+}
 
-  /* -------------------- Portafolio */
+/* -------------------- Portafolio */
 
-  #footerPortafolio{
+#footerPortafolio {
     position: fixed;
     left: 620px;
     bottom: 10px;
     height: 30px;
     width: 100%;
     color: white;
-  }
+}
 
-#logoPortafolio{
+#logoPortafolio {
     width: 120px;
     border-radius: 80px;
     float: left;
     padding: 10px;
 }
 
-.lista-menu-portafolio{
+.lista-menu-portafolio {
     float: right;
 }
 
-.lista-menu-portafolio ul li{
+.lista-menu-portafolio ul li {
     list-style: none;
     margin-left: 75px;
     padding: 60px 0;
@@ -160,40 +161,42 @@
     display: table;
 } */
 
-.menuPortafolio{
+.menuPortafolio {
     width: 900px;
     padding-top: 20px;
     margin: 0 auto;
 }
 
-.lista-menu-portafolio ul li a{
+.lista-menu-portafolio ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 25px;
 }
 
-.lista-menu-portafolio ul li a:hover{
+.lista-menu-portafolio ul li a:hover {
     width: 100%;
     text-decoration: underline overline;
     text-decoration-color: rgb(250, 250, 250);
 }
-section{
+
+section {
 
     height: 600px;
 }
 
-.middle{
+.middle {
     padding-top: 20px;
     position: fixed;
     left: 650px;
     bottom: 100px;
 }
 
-section .middle ul li{
+section .middle ul li {
     display: inline-block;
 }
-section .middle ul li a{
+
+section .middle ul li a {
     display: block;
     text-decoration: none;
     font-size: 20px;
@@ -201,49 +204,51 @@ section .middle ul li a{
     color: white;
     margin-left: 20px;
 }
-section .middle ul li a:hover{
+
+section .middle ul li a:hover {
     border-radius: 20px;
     box-shadow: 0 0 10px white, 0 0 40px lightgray;
 }
 
-.talleres_sofka{
+.talleres_sofka {
     padding-top: 20px;
     position: fixed;
     left: 660px;
     bottom: 200px;
 }
 
-section .talleres_sofka ul li{
+section .talleres_sofka ul li {
     display: inline-block;
 }
-section .talleres_sofka ul li a{
+
+section .talleres_sofka ul li a {
     display: block;
     text-decoration: none;
     font-size: 50px;
     font-weight: bold;
     color: white;
     margin-left: 20px;
-    font-family:fantasy;
+    font-family: fantasy;
 }
 
-section .talleres_sofka ul li a:hover{
+section .talleres_sofka ul li a:hover {
     border-radius: 20px;
     box-shadow: 0 0 90px rgb(69, 192, 214), 0 0 40px rgba(116, 226, 228, 0.464);
 
 }
 
-section .talleres_sofka h2{
+section .talleres_sofka h2 {
     color: white;
     text-align: center;
     font-size: 30px;
 }
 
-.tres_logos{
+.tres_logos {
     padding-top: 90px;
     left: 700px;
 }
 
-section .tres_logos img{
+section .tres_logos img {
     background-size: cover;
     width: 600px;
     height: 200px;
@@ -252,11 +257,12 @@ section .tres_logos img{
     box-shadow: 0 0 10px white, 0 0 40px lightgray;
 }
 
-section .tres_logos img:hover{
+section .tres_logos img:hover {
     box-shadow: 0 0 10px rgb(116, 82, 218), 0 0 40px rgb(34, 43, 222);
     cursor: pointer;
 }
-section .tres_logos img{
+
+section .tres_logos img {
     margin-left: 300px;
     margin-top: 120px;
     animation: movimiento 4.5s linear infinite;
@@ -264,47 +270,66 @@ section .tres_logos img{
 
 @keyframes movimiento {
     0% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
-  
+
     50% {
-      transform: translateY(10px);
+        transform: translateY(10px);
     }
-  
+
     100% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
-  }
-  @keyframes titulo_div {
+}
+
+@keyframes titulo_div {
     0% {
-      left: 480px;
+        left: 480px;
+        color: red;
     }
-  
+    25%{
+        color: yellow;
+    }
+    45%{
+        color: blue;
+    }
+
     50% {
-      transform: translateX(350px);
+        transform: translateX(350px);
     }
-  
+
+    70%{
+        color: yellow;
+    }
+
     100% {
         left: 500px;
+        color: red;
     }
-  }
+}
 
-  .titulo {
+.titulo {
     border-radius: 10px;
     position: absolute;
     top: 200px;
     animation: titulo_div linear infinite;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-size: 40px;
     box-shadow: 0 0 10px rgb(39, 91, 212), 0 0 40px rgb(36, 35, 40);
-  }
+}
 
-
-
-  .titulo:nth-child(1) {
-
+.titulo:nth-child(1) {
     left: 15%;
     animation-duration: 8s;
+}
 
-  }
+.retitulo {
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    animation: titulo_div linear infinite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    box-shadow: 0 0 10px rgb(55, 19, 138), 0 0 40px rgb(255, 255, 255);
+}
