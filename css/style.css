@@ -58,7 +58,7 @@
 .pseint_body {
     width: 1220px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .portafolioBody {
@@ -376,29 +376,39 @@ section .tres_logos img {
     font-size: 20px;
     background-color: rgb(58, 48, 48);
     color: white;
-    cursor: pointer;
+}
+
+.menu_lateral #subtitle1{
+    padding-bottom: 2px;
+}
+
+.menu_lateral .subtitle2{
+    padding-bottom: 26px;
 }
 
 .menu_lateral ul li a {
-    width: 95px;
+    width: 100px;
+    height: 25px;
     text-align: center;
     background-color: rgb(94, 92, 92);
-    color: black;
+    color: rgb(255, 255, 255);
     border: 2px solid rgb(14, 15, 14);
     padding: 1px 2px;
     text-decoration: none;
     display: inline-block;
+    font-size: 12px;
 }
 
 .menu_lateral ul li a:hover {
     background-color: aquamarine;
+    color: black;
 }
 
 .menu_lateral ul li {
-    margin: 4px 0;
+    margin: 2px 0;
     list-style: none;
 }
 
-.main {
+/* .main {
     margin-left: 200px;
-}
+} */
