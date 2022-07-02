@@ -348,9 +348,41 @@ section .tres_logos img {
 .menu_lateral{
     position: fixed;
     background-color: lightgrey ;
-    width: 150px;
+    width: 160px;
     height: 600px;
 
+}
+
+.menu_lateral2{
+    position: fixed;
+    background-color: lightgrey;
+    width: 160px;
+    height: 600px;
+    margin-left: 200px;
+}
+
+.menu_lateral3{
+    position: fixed;
+    background-color: lightgrey;
+    width: 150px;
+    height: 600px;
+    margin-left: 200px;
+}
+
+.menu_lateral4{
+    position: fixed;
+    background-color: lightgrey;
+    width: 150px;
+    height: 600px;
+    margin-left: 200px;
+}
+
+.menu_lateral5{
+    position: fixed;
+    background-color: lightgrey;
+    width: 150px;
+    height: 600px;
+    margin-left: 200px;
 }
 
 .menu_lateral h2{
@@ -361,8 +393,16 @@ section .tres_logos img {
     cursor: pointer;
 }
 
+.menu_lateral2 h2{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(58, 48, 48);
+    color: white;
+    cursor: pointer;
+}
+
 .menu_lateral ul li a{
-    width: 85px;
+    width: 95px;
     text-align: center;
     background-color: rgb(94, 92, 92);
     color: black;
@@ -371,11 +411,32 @@ section .tres_logos img {
     text-decoration: none;
     display: inline-block;
 }
+
+.menu_lateral2 ul li a{
+    width: 95px;
+    text-align: center;
+    background-color: rgb(94, 92, 92);
+    color: black;
+    border: 2px solid rgb(14, 15, 14);
+    padding: 1px 2px;
+    text-decoration: none;
+    display: inline-block;
+}
+
 .menu_lateral ul li a:hover{
     background-color: aquamarine;
 }
 
+.menu_lateral2 ul li a:hover{
+    background-color: aquamarine;
+}
+
 .menu_lateral ul li {
+    margin: 4px 0;
+    list-style: none;
+}
+
+.menu_lateral2 ul li{
     margin: 4px 0;
     list-style: none;
 }
