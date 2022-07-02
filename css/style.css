@@ -351,24 +351,25 @@ section .tres_logos img {
     position: fixed;
     background-color: lightgrey;
     width: 160px;
-    height: 600px;
+    height: 680px;
+    margin-left: 150px;
 
 }
 
 #lateral2 {
-    margin-left: 200px;
+    margin-left: 350px;
 }
 
 #lateral3 {
-    margin-left: 400px;
+    margin-left: 550px;
 }
 
 #lateral4 {
-    margin-left: 600px;
+    margin-left: 750px;
 }
 
 #lateral5 {
-    margin-left: 800px;
+    margin-left: 950px;
 }
 
 .menu_lateral h2 {
@@ -399,6 +400,19 @@ section .tres_logos img {
     font-size: 12px;
 }
 
+.menu_lateral ul li .link_subtitle{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    background-color: rgb(125, 141, 140);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(14, 15, 14);
+    padding: 1px 2px;
+    text-decoration: none;
+    display:block;
+    font-size: 12px;
+}
+
 .menu_lateral ul li a:hover {
     background-color: aquamarine;
     color: black;
@@ -408,7 +422,6 @@ section .tres_logos img {
     margin: 2px 0;
     list-style: none;
 }
-
 /* .main {
     margin-left: 200px;
 } */
