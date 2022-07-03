@@ -94,28 +94,32 @@
     background-color: rgb(61, 61, 63);
 }
 
-.reimpar {
-    background-color: pink;
+.par{
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
     cursor: pointer;
+    border-color: black;
 }
 
-.repar {
-    background-color: rgb(207, 69, 69);
-    cursor: pointer;
+.impar{
+    background-color: rgb(38, 218, 80);
 }
+
+
 
 .grupo-fruta .boton {
     width: 30%;
     padding: 12px;
     margin-top: 20px;
-    margin-left: 65px;
+    margin-left: 200px;
     border: none;
     font-size: 15px;
     background-color: rgb(87, 228, 228);
 }
 
 .grupo-fruta .boton:hover {
-    background-color: aqua;
+    background-color: rgb(5, 166, 241);
 }
 
 #footerFrutas {

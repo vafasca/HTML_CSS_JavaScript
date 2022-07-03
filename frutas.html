@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/final.js"></script>
     <title>Frutas</title>
 </head>
 <body class="fruit">
     <section class="grupo-fruta">
-        <h3 style="text-align: center; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 20px;">Frutas</h3>
+        <h3>Frutas</h3>
         <ol class="lista">
-            <li class="impar">Platano</li>
+            <li id="par1" class="impar">Platano</li>
             <li class="par">Manzana</li>
             <li class="impar">Frutilla</li>
             <li class="par">Mandarina</li>
@@ -23,9 +22,9 @@
             <li class="impar">Moras</li>
             <li class="par">Papaya</li>
         </ol>
-        <input type="button" onclick="enviarPar()" class="boton" value="Par">
-        <input type="button" onclick="enviarImPar()" class="boton" value="Impar">
+        <input type="button" onclick="enviarImPar()" id="botonimpar" class="boton" value="Cambiar tema">
     </section>
     <footer id="footerFrutas" class="footer"><b>&copy; Copyright 2022 Taller Final HTML CSS JavaScript</b></footer>
+    <script src="js/final.js"></script>
 </body>
 </html>

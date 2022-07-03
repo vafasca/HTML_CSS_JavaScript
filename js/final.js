@@ -40,24 +40,21 @@ const reset = () => {
     document.getElementById("mensaje").value = "";
 }
 
+
+
 const enviarImPar = () => {
+    //document.getElementById("botonimpar").disabled = true;
     var impar = document.querySelectorAll(".impar");
     var par = document.querySelectorAll(".par");
-    var tam = impar.length;
-    console.log(tam);
     for (let index = 0; index < impar.length; index++) {
-        impar[index].classList.add("reimpar")
-        par[index].classList.remove("repar");
+        impar[index].classList.remove("impar");
+        impar[index].classList.toggle("par");
+        //
+        par[index].classList.remove("par");
+        par[index].classList.toggle("impar");
     }
 }
-const enviarPar = () => {
-    var par = document.querySelectorAll(".par");
-    var impar = document.querySelectorAll(".impar");
-    for (let index = 0; index < par.length; index++) {
-        par[index].classList.add("repar")
-        impar[index].classList.remove("reimpar");
-    }
-}
+
 
 const colorPortafolio = () =>{
     var cambiar = document.querySelector(".titulo");
