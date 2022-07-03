@@ -20,6 +20,16 @@
     background-size: cover;
 }
 
+.portafoliobody2{
+    background-image: url('../images/fondo_alternativo.jpg');
+    background-size: cover;
+}
+
+#java_body{
+    background-image: url('../images/java_fondo.PNG');
+    background-size: cover;
+}
+
 .pseint_body {
     background-image: url('../images/fondo_pseint.jpg');
     background-size: cover;
