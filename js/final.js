@@ -60,7 +60,6 @@ const colorPortafolio = () =>{
     var cambiar = document.querySelector(".titulo");
     var cambiar2 = document.querySelector(".lista-menu-portafolio ul li a");
     var fondo = document.getElementById("fondo_alt");
-    console.log(fondo);
     fondo.classList.toggle("portafoliobody2");
     cambiar.classList.toggle("retitulo");
 }
